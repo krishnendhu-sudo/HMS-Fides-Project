@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Kinghood";
+  src: url("/fonts/kinghood.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-kinghood {
+  font-family: "Kinghood", sans-serif;
+}
+
+.font-poppin {
+  font-family: "Poppin", sans-serif;
+}
