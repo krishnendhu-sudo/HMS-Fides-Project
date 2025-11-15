@@ -101,7 +101,7 @@ const handleView = (kitId) => {
       {/* Table */}
       <div className="overflow-x-auto shadow-lg rounded-lg border border-gray-200">
         <table className="min-w-full text-lg bg-white border-collapse">
-          <thead className="bg-black text-white text-center">
+          <thead className="bg-red text-white text-center">
             <tr>
               <th className="p-3">Kit ID</th>
               <th className="p-3">Kit Name</th>
